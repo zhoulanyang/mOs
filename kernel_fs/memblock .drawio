@@ -1,1 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2022-01-18T11:40:37.515Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36" version="16.2.7" etag="Hvtb49yyigm8729guSCK" type="github"><diagram id="gKe593eO4aY3XkF7vVZ7">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-18T11:45:07.842Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36" etag="kNom5m5ZCv0g9HIdYn-d" version="16.2.7" type="github">
+  <diagram id="gKe593eO4aY3XkF7vVZ7" name="Page-1">
+    <mxGraphModel dx="813" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rzIgOstRGU2MRSgFQdSz-1" value="struct memblock memblock {&lt;br&gt;&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.bottom_up = false,&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.memory,&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.reserved,&lt;br&gt;};" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="350" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rzIgOstRGU2MRSgFQdSz-2" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;struct memblock_type {&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.reserved.regions&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.reserved.cnt&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= 1,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.reserved.max&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= 29&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.reserved.name = &quot;reserved&quot;,&lt;/div&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="320" y="460" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rzIgOstRGU2MRSgFQdSz-4" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;struct memblock_type {&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.reserved.regions&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.reserved.cnt&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= 1,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.reserved.max&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= 128,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.reserved.name = &quot;memory&quot;,&lt;/div&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="320" y="220" width="190" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
