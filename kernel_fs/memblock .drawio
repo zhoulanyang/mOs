@@ -1,17 +1,93 @@
-<mxfile host="app.diagrams.net" modified="2022-01-18T11:45:07.842Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36" etag="kNom5m5ZCv0g9HIdYn-d" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-18T11:56:52.035Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36" etag="97GgRcQvHYbt9yyjiH5c" version="16.2.7" type="github">
   <diagram id="gKe593eO4aY3XkF7vVZ7" name="Page-1">
-    <mxGraphModel dx="813" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="rzIgOstRGU2MRSgFQdSz-1" value="struct memblock memblock {&lt;br&gt;&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.bottom_up = false,&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.memory,&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.reserved,&lt;br&gt;};" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="80" y="350" width="160" height="90" as="geometry" />
+        <mxCell id="rzIgOstRGU2MRSgFQdSz-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;curved=1;strokeColor=#99CCFF;" edge="1" parent="1" source="rzIgOstRGU2MRSgFQdSz-1" target="rzIgOstRGU2MRSgFQdSz-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="250" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="rzIgOstRGU2MRSgFQdSz-2" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;struct memblock_type {&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.reserved.regions&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.reserved.cnt&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= 1,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.reserved.max&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= 29&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.reserved.name = &quot;reserved&quot;,&lt;/div&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="320" y="460" width="190" height="100" as="geometry" />
+        <mxCell id="rzIgOstRGU2MRSgFQdSz-22" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;strokeColor=#99CCFF;" edge="1" parent="1" source="rzIgOstRGU2MRSgFQdSz-1" target="rzIgOstRGU2MRSgFQdSz-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rzIgOstRGU2MRSgFQdSz-4" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;struct memblock_type {&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.reserved.regions&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.reserved.cnt&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= 1,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.reserved.max&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= 128,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.reserved.name = &quot;memory&quot;,&lt;/div&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="320" y="220" width="190" height="100" as="geometry" />
+        <mxCell id="rzIgOstRGU2MRSgFQdSz-1" value="struct memblock memblock {&lt;br&gt;&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.bottom_up = false,&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.memory,&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.reserved,&lt;br&gt;};" style="whiteSpace=wrap;html=1;align=left;fillColor=#FFB366;" vertex="1" parent="1">
+          <mxGeometry x="90" y="330" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rzIgOstRGU2MRSgFQdSz-2" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;struct memblock_type {&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.reserved.regions[],&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.reserved.cnt&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= 1,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.reserved.max&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= 29&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.reserved.name = &quot;reserved&quot;,&lt;/div&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;fillColor=#CCFF99;" vertex="1" parent="1">
+          <mxGeometry x="330" y="440" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rzIgOstRGU2MRSgFQdSz-4" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;struct memblock_type {&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.reserved.regions[],&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.reserved.cnt&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= 1,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.reserved.max&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= 128,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;.reserved.name = &quot;memory&quot;,&lt;/div&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;fillColor=#CCFF99;" vertex="1" parent="1">
+          <mxGeometry x="330" y="200" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rzIgOstRGU2MRSgFQdSz-5" value="" style="whiteSpace=wrap;html=1;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="580" y="160" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rzIgOstRGU2MRSgFQdSz-6" value="memblock_regions[127]" style="whiteSpace=wrap;html=1;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="580" y="160" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rzIgOstRGU2MRSgFQdSz-7" value="..." style="whiteSpace=wrap;html=1;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="580" y="190" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rzIgOstRGU2MRSgFQdSz-8" value="memblock_regions[0]" style="whiteSpace=wrap;html=1;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="580" y="220" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rzIgOstRGU2MRSgFQdSz-9" value="" style="whiteSpace=wrap;html=1;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="580" y="390" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rzIgOstRGU2MRSgFQdSz-10" value="memblock_regions[28]" style="whiteSpace=wrap;html=1;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="580" y="390" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rzIgOstRGU2MRSgFQdSz-11" value="..." style="whiteSpace=wrap;html=1;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="580" y="420" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rzIgOstRGU2MRSgFQdSz-12" value="memblock_regions[0]" style="whiteSpace=wrap;html=1;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="580" y="450" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rzIgOstRGU2MRSgFQdSz-13" value="" style="whiteSpace=wrap;html=1;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="580" y="160" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rzIgOstRGU2MRSgFQdSz-14" value="memblock_regions[127]" style="whiteSpace=wrap;html=1;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="580" y="160" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rzIgOstRGU2MRSgFQdSz-15" value="..." style="whiteSpace=wrap;html=1;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="580" y="190" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rzIgOstRGU2MRSgFQdSz-20" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;dashed=1;strokeColor=#99CCFF;" edge="1" parent="1" source="rzIgOstRGU2MRSgFQdSz-16" target="rzIgOstRGU2MRSgFQdSz-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rzIgOstRGU2MRSgFQdSz-16" value="memblock_regions[0]" style="whiteSpace=wrap;html=1;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="580" y="220" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rzIgOstRGU2MRSgFQdSz-17" value="memblock_regions[28]" style="whiteSpace=wrap;html=1;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="580" y="390" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rzIgOstRGU2MRSgFQdSz-18" value="struct memblock_regions{&lt;br&gt;&lt;div&gt;.base = xxxx,&lt;/div&gt;&lt;div&gt;.size = xxxx,&lt;/div&gt;&lt;div&gt;.flags=&amp;nbsp;MEMBLOCK_NONE,&lt;/div&gt;&lt;div&gt;.nid = 0&lt;/div&gt;&lt;div&gt;&lt;span&gt;}&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;fillColor=#FFF4C3;" vertex="1" parent="1">
+          <mxGeometry x="800" y="200" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rzIgOstRGU2MRSgFQdSz-19" value="struct memblock_regions{&lt;br&gt;&lt;div&gt;.base = xxxx,&lt;/div&gt;&lt;div&gt;.size = xxxx,&lt;/div&gt;&lt;div&gt;.flags=&amp;nbsp;MEMBLOCK_NONE,&lt;/div&gt;&lt;div&gt;.nid = 0&lt;/div&gt;&lt;div&gt;&lt;span&gt;}&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;fillColor=#FFF4C3;" vertex="1" parent="1">
+          <mxGeometry x="800" y="355" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rzIgOstRGU2MRSgFQdSz-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=11;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="1" target="rzIgOstRGU2MRSgFQdSz-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="224.66666666666674" as="targetPoint" />
+            <mxPoint x="470" y="230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rzIgOstRGU2MRSgFQdSz-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=11;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="1" target="rzIgOstRGU2MRSgFQdSz-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="475" as="targetPoint" />
+            <mxPoint x="460" y="470" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rzIgOstRGU2MRSgFQdSz-25" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;dashed=1;strokeColor=#99CCFF;" edge="1" parent="1" target="rzIgOstRGU2MRSgFQdSz-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="464.9999999999999" as="sourcePoint" />
+            <mxPoint x="800" y="514.9999999999999" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
